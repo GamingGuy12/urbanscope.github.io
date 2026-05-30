@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanScope ‧ Maintenance Log</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/global_style.css">
+    <link rel="stylesheet" href="css/forum_style.css">
+</head>
+
+<body>
+
+    <header class="forum-header-bar">
+        <div class="d-flex align-items-center gap-3">
+            <label for="forum-nav-toggle" class="forum-menu-trigger">
+                <i class="bi bi-list"></i>
+            </label>
+            <span class="text-golden fw-bold font-monospace fs-6">URBANSCOPE</span>
+        </div>
+        <div class="text-golden small font-monospace">BY TRES R&D</div>
+    </header>
+
+    <input type="checkbox" id="forum-nav-toggle">
+
+    <nav class="forum-slide-panel">
+        <h5>Home</h5>
+        <a href="index.html"><i class="bi bi-house-door"></i> Dashboard</a>
+        <a href="index.html#emergency"><i class="bi bi-exclamation-circle"></i> Emergency Alerts</a>
+        <a href="index.html#city_overview"><i class="bi bi-map"></i> City Overview</a>
+        <a href="index.html#this_weeks_impact"><i class="bi bi-graph-up"></i> Weekly Impact</a>
+
+        <h5>Reports</h5>
+        <a href="report.html#urban_report"><i class="bi bi-file-earmark-plus"></i> Master Report</a>
+        <a href="report.html#recent_activity"><i class="bi bi-activity"></i> Recent Activity</a>
+        <a href="emergency_reports.html"><i class="bi bi-exclamation-triangle"></i> Emergency Records</a>
+        <a href="report.html#track_my_report"><i class="bi bi-search"></i> Track My Report</a>
+
+        <h5>Forum</h5>
+        <a href="forum_general_discussion.html"><i class="bi bi-chat-square-text"></i> General Discussion</a>
+        <a href="forum_report_specific.html"><i class="bi bi-exclamation-triangle-fill"></i> Report Disputes</a>
+        <a href="forum_updates.html"><i class="bi bi-arrow-repeat"></i> Situation Updates</a>
+        <a href="forum_public.html"><i class="bi bi-building"></i> Public Space</a>
+        <a href="forum_inf.html" class="active"><i class="bi bi-tools"></i> Maintenance Log</a>
+
+        <h5>Contact</h5>
+        <a href="contact_us.html"><i class="bi bi-envelope"></i> Contact Us</a>
+    </nav>
+
+    <div class="forum-left-rail">
+        <div class="text-white-50 mb-4"><a href="index.html" class="text-white-50"><i class="bi bi-house-door fs-5"></i></a></div>
+        <div class="text-white-50 mb-4"><i class="bi bi-bell fs-5"></i></div>
+    </div>
+
+    <main class="forum-main-hub">
+        <div class="container-fluid p-0">
+            <section class="forum-hero">
+                <div class="forum-hero-inner">
+                    <h1>Maintenance Log</h1>
+                    <p>Asset and utility breakdown notices</p>
+                </div>
+            </section>
+
+
+            <h2 class="text-dark-oak fw-bold h4 mb-4">Infrastructure &amp; Utility Maintenance Logs</h2>
+
+            <article class="feed-card-surface">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h3 class="feed-title-text h5">Blocked Drainage System - River Road</h3>
+                        <div class="feed-meta-row"><i class="bi bi-person-circle"></i><span>resident_22</span></div>
+                    </div>
+                    <span class="badge bg-warning text-dark text-uppercase px-2 py-1 small">Pending Action</span>
+                </div>
+                <p class="feed-body-copy">
+                    The drainage near River Road is clogged with plastic waste. During rain, water floods the sidewalk
+                    and makes it difficult for pedestrians to pass safely. The issue has worsened after last week's heavy rainfall.
+                </p>
+                <div class="feed-action-divider">
+                    <div class="feed-action-links-group">
+                        <span class="feed-interactive-node"><i class="bi bi-hand-thumbs-up"></i> 12 Upvotes</span>
+                        <span class="feed-interactive-node"><i class="bi bi-chat-left-text"></i> 6 Comments</span>
+                    </div>
+                    <span class="rail-anchor-timestamp text-muted">1 day ago</span>
+                </div>
+            </article>
+
+            <article class="feed-card-surface">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h3 class="feed-title-text h5">Corrosion on Overhead Pipe Bridge - Industrial Canal</h3>
+                        <div class="feed-meta-row"><i class="bi bi-person-circle"></i><span>field_engineer_mm</span></div>
+                    </div>
+                    <span class="badge bg-danger text-uppercase px-2 py-1 small">Urgent Review</span>
+                </div>
+                <p class="feed-body-copy">
+                    Visual inspection of the overhead pipe bridge spanning the industrial canal on Strand Road has revealed
+                    significant corrosion at three anchor points. The bridge carries a 300mm water main. Structural assessment
+                    is requested before next monsoon season begins.
+                </p>
+                <div class="feed-action-divider">
+                    <div class="feed-action-links-group">
+                        <span class="feed-interactive-node"><i class="bi bi-hand-thumbs-up"></i> 35 Upvotes</span>
+                        <span class="feed-interactive-node"><i class="bi bi-chat-left-text"></i> 9 Comments</span>
+                    </div>
+                    <span class="rail-anchor-timestamp text-muted">2 days ago</span>
+                </div>
+            </article>
+
+            <article class="feed-card-surface">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h3 class="feed-title-text h5">Gas Line Pressure Drop - Hlaing Township Grid</h3>
+                        <div class="feed-meta-row"><i class="bi bi-person-circle"></i><span>utilities_hlaing</span></div>
+                    </div>
+                    <span class="badge bg-warning text-dark text-uppercase px-2 py-1 small">Under Investigation</span>
+                </div>
+                <p class="feed-body-copy">
+                    Residents in Hlaing Township blocks 4–7 are reporting a noticeable drop in gas pressure over the past
+                    48 hours. MOGE inspection teams have been requested. The suspected cause is a partial blockage in the
+                    distribution manifold serving the northern residential cluster.
+                </p>
+                <div class="feed-action-divider">
+                    <div class="feed-action-links-group">
+                        <span class="feed-interactive-node"><i class="bi bi-hand-thumbs-up"></i> 21 Upvotes</span>
+                        <span class="feed-interactive-node"><i class="bi bi-chat-left-text"></i> 4 Comments</span>
+                    </div>
+                    <span class="rail-anchor-timestamp text-muted">3 days ago</span>
+                </div>
+            </article>
+
+            <article class="feed-card-surface">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h3 class="feed-title-text h5">Pothole Cluster - Kaba Aye Pagoda Road, Near Junction 8</h3>
+                        <div class="feed-meta-row"><i class="bi bi-person-circle"></i><span>road_watch_ygn</span></div>
+                    </div>
+                    <span class="badge bg-secondary text-uppercase px-2 py-1 small">Logged</span>
+                </div>
+                <p class="feed-body-copy">
+                    A cluster of 5 moderate potholes has formed along the left lane of Kaba Aye Pagoda Road approaching
+                    Junction 8. Two are deep enough to damage low-clearance vehicles. Patching is requested ahead of the
+                    upcoming rainy season which will worsen surface degradation significantly.
+                </p>
+                <div class="feed-action-divider">
+                    <div class="feed-action-links-group">
+                        <span class="feed-interactive-node"><i class="bi bi-hand-thumbs-up"></i> 18 Upvotes</span>
+                        <span class="feed-interactive-node"><i class="bi bi-chat-left-text"></i> 3 Comments</span>
+                    </div>
+                    <span class="rail-anchor-timestamp text-muted">5 days ago</span>
+                </div>
+            </article>
+
+            <article class="feed-card-surface">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h3 class="feed-title-text h5">Kyimyindaing Water Tower - Exterior Corrosion</h3>
+                        <div class="feed-meta-row"><i class="bi bi-person-circle"></i><span>water_authority_field</span></div>
+                    </div>
+                    <span class="badge bg-warning text-dark text-uppercase px-2 py-1 small">Pending Assessment</span>
+                </div>
+                <p class="feed-body-copy">
+                    External inspection of the Kyimyindaing elevated water tower (Asset ID: WTR-KYM-007) has identified
+                    rust penetration along the lower third of the support column. The tower serves approximately 3,200
+                    residential connections in the lower township. Repainting and anti-corrosion treatment are recommended
+                    before the next monsoon season. Report filed: USB-2026-3301.
+                </p>
+                <div class="feed-action-divider">
+                    <div class="feed-action-links-group">
+                        <span class="feed-interactive-node"><i class="bi bi-hand-thumbs-up"></i> 14 Upvotes</span>
+                        <span class="feed-interactive-node"><i class="bi bi-chat-left-text"></i> 2 Comments</span>
+                    </div>
+                    <span class="rail-anchor-timestamp text-muted">6 days ago</span>
+                </div>
+            </article>
+
+            <article class="feed-card-surface">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h3 class="feed-title-text h5">Dagon Seikkan Bridge - Expansion Joint Failure</h3>
+                        <div class="feed-meta-row"><i class="bi bi-person-circle"></i><span>bridge_inspector_01</span></div>
+                    </div>
+                    <span class="badge bg-danger text-uppercase px-2 py-1 small">Urgent Review</span>
+                </div>
+                <p class="feed-body-copy">
+                    The northern expansion joint on the Dagon Seikkan bridge has failed, resulting in a visible 4–5 cm
+                    vertical lip forming between deck sections. Heavy vehicles are generating significant impact loads at
+                    this joint on every crossing. Debris accumulation in the gap suggests the seal has been compromised
+                    for several weeks. Immediate inspection is requested before further deterioration. Report: USB-2026-3388.
+                </p>
+                <div class="feed-action-divider">
+                    <div class="feed-action-links-group">
+                        <span class="feed-interactive-node"><i class="bi bi-hand-thumbs-up"></i> 39 Upvotes</span>
+                        <span class="feed-interactive-node"><i class="bi bi-chat-left-text"></i> 11 Comments</span>
+                    </div>
+                    <span class="rail-anchor-timestamp text-muted">1 week ago</span>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <aside class="forum-right-rail">
+        <div class="side-identity-module">
+            <div class="avatar-housing"><i class="bi bi-person-workspace"></i></div>
+            <h5>Citizen Portal</h5>
+            <span>Verified Participant</span>
+            <div class="side-contact-capsule">
+                <p><i class="bi bi-telephone-fill"></i> 09-776228391</p>
+                <p><i class="bi bi-envelope-fill"></i> contact@urbanscope.mm</p>
+            </div>
+        </div>
+        <div>
+            <div class="rail-section-header">Tracked Assets</div>
+            <a href="forum_inf.html" class="rail-list-anchor">
+                <i class="bi bi-circle-fill text-danger small pt-1"></i>
+                <div>
+                    <div class="rail-anchor-heading">Industrial Canal Bridge</div>
+                    <div class="rail-anchor-timestamp">USB-2026-3011 · Urgent</div>
+                </div>
+            </a>
+            <a href="forum_inf.html" class="rail-list-anchor">
+                <i class="bi bi-circle-fill text-danger small pt-1"></i>
+                <div>
+                    <div class="rail-anchor-heading">Dagon Seikkan Bridge Joint</div>
+                    <div class="rail-anchor-timestamp">USB-2026-3388 · Urgent</div>
+                </div>
+            </a>
+            <a href="forum_inf.html" class="rail-list-anchor">
+                <i class="bi bi-circle-fill text-warning small pt-1"></i>
+                <div>
+                    <div class="rail-anchor-heading">River Road Drainage</div>
+                    <div class="rail-anchor-timestamp">USB-2026-2744 · In Progress</div>
+                </div>
+            </a>
+            <a href="forum_inf.html" class="rail-list-anchor">
+                <i class="bi bi-circle-fill text-warning small pt-1"></i>
+                <div>
+                    <div class="rail-anchor-heading">Kyimyindaing Water Tower</div>
+                    <div class="rail-anchor-timestamp">USB-2026-3301 · Pending</div>
+                </div>
+            </a>
+        </div>
+    </aside>
+
+</body>
+
+</html>

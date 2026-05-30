@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanScope ‧ Emergency Reports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/global_style.css">
+    <link rel="stylesheet" href="css/forum_style.css">
+</head>
+
+<body class="bg-luxury-cream">
+
+    <header class="forum-header-bar">
+        <div class="d-flex align-items-center gap-3">
+            <label for="forum-nav-toggle" class="forum-menu-trigger">
+                <i class="bi bi-list"></i>
+            </label>
+            <span class="text-golden fw-bold font-monospace fs-6">URBANSCOPE</span>
+        </div>
+        <div class="text-golden small font-monospace">BY TRES R&D</div>
+    </header>
+
+    <input type="checkbox" id="forum-nav-toggle">
+
+    <nav class="forum-slide-panel">
+        <h5>Home</h5>
+        <a href="index.html"><i class="bi bi-house-door"></i> Dashboard</a>
+        <a href="index.html#emergency"><i class="bi bi-exclamation-circle"></i> Emergency Alerts</a>
+        <a href="index.html#city_overview"><i class="bi bi-map"></i> City Overview</a>
+        <a href="index.html#this_weeks_impact"><i class="bi bi-graph-up"></i> Weekly Impact</a>
+
+        <h5>Reports</h5>
+        <a href="report.html#urban_report"><i class="bi bi-file-earmark-plus"></i> Master Report</a>
+        <a href="report.html#recent_activity"><i class="bi bi-activity"></i> Recent Activity</a>
+        <a href="emergency_reports.html" class="active"><i class="bi bi-exclamation-triangle"></i> Emergency Records</a>
+        <a href="report.html#track_my_report"><i class="bi bi-search"></i> Track My Report</a>
+
+        <h5>Forum</h5>
+        <a href="forum_general_discussion.html"><i class="bi bi-chat-square-text"></i> General Discussion</a>
+        <a href="forum_report_specific.html"><i class="bi bi-exclamation-triangle-fill"></i> Report Disputes</a>
+        <a href="forum_updates.html"><i class="bi bi-arrow-repeat"></i> Situation Updates</a>
+        <a href="forum_public.html"><i class="bi bi-building"></i> Public Space</a>
+        <a href="forum_inf.html"><i class="bi bi-tools"></i> Maintenance Log</a>
+
+        <h5>Contact</h5>
+        <a href="contact_us.html"><i class="bi bi-envelope"></i> Contact Us</a>
+    </nav>
+
+    <div class="hero-placeholder hero-sm w-100 bg-hero-other">
+        <h1 class="text-white text-center display-5 text-hero-shadow">Emergency Reports</h1>
+    </div>
+
+    <section class="container-fluid px-4 px-md-5 my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+            <h2 class="text-dark-oak fw-bold mb-0">Active Emergency Records</h2>
+            <div class="d-flex gap-2 flex-wrap">
+                <span class="badge bg-danger px-3 py-2 small text-uppercase">3 Critical</span>
+                <span class="badge bg-warning text-dark px-3 py-2 small text-uppercase">2 High</span>
+                <span class="badge bg-secondary px-3 py-2 small text-uppercase">1 Monitoring</span>
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-6">
+                <div class="info-card-custom p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start border-bottom pb-3 mb-3">
+                            <div>
+                                <h5 class="text-dark-oak fw-bold mb-1">Water Main Fracture</h5>
+                                <p class="text-muted small mb-0"><i class="bi bi-geo-alt-fill me-1"></i>Northwest Boulevard, Lane 4</p>
+                            </div>
+                            <span class="badge bg-danger text-uppercase px-2 py-1">Critical</span>
+                        </div>
+                        <p class="text-dark-min mb-3">
+                            Substantial flooding across the intersection due to underground pipe rupture. Field teams dispatched for
+                            pressure modulation. Avoid transit routes through the affected zone until further notice.
+                        </p>
+                        <div class="d-flex gap-2 mb-3 flex-wrap">
+                            <span class="badge rounded-pill badge-oak">Flooding</span>
+                            <span class="badge rounded-pill badge-oak">Infrastructure</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center small text-dark-min">
+                        <div class="d-flex gap-3">
+                            <span><i class="bi bi-hand-thumbs-up me-1"></i> 34</span>
+                            <span><i class="bi bi-chat-left-dots me-1"></i> 8</span>
+                        </div>
+                        <span>Registered 45 mins ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="info-card-custom p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start border-bottom pb-3 mb-3">
+                            <div>
+                                <h5 class="text-dark-oak fw-bold mb-1">Inya Lake Overbank Flooding</h5>
+                                <p class="text-muted small mb-0"><i class="bi bi-geo-alt-fill me-1"></i>Inya Lake Kan Baung, District 3</p>
+                            </div>
+                            <span class="badge bg-danger text-uppercase px-2 py-1">Critical</span>
+                        </div>
+                        <p class="text-dark-min mb-3">
+                            Lake water levels have exceeded the eastern embankment by 18 cm following overnight rainfall totalling 87 mm.
+                            Residential access roads are partially submerged. Evacuation advisory issued for Zone 3-C.
+                        </p>
+                        <div class="d-flex gap-2 mb-3 flex-wrap">
+                            <span class="badge rounded-pill badge-oak">Flooding</span>
+                            <span class="badge rounded-pill badge-oak">Evacuation</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center small text-dark-min">
+                        <div class="d-flex gap-3">
+                            <span><i class="bi bi-hand-thumbs-up me-1"></i> 61</span>
+                            <span><i class="bi bi-chat-left-dots me-1"></i> 22</span>
+                        </div>
+                        <span>Registered 1 hr 10 mins ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="info-card-custom p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start border-bottom pb-3 mb-3">
+                            <div>
+                                <h5 class="text-dark-oak fw-bold mb-1">Highway Overpass Structural Risk</h5>
+                                <p class="text-muted small mb-0"><i class="bi bi-geo-alt-fill me-1"></i>Highway Entrance Bypass, Km 14</p>
+                            </div>
+                            <span class="badge bg-warning text-dark text-uppercase px-2 py-1">High</span>
+                        </div>
+                        <p class="text-dark-min mb-3">
+                            Continuous stress sensor data indicates accelerating micro-fracture propagation across the central span of the Km 14 overpass.
+                            Load restrictions of 12 tonnes now in effect. Structural engineering team on site conducting emergency assessment.
+                        </p>
+                        <div class="d-flex gap-2 mb-3 flex-wrap">
+                            <span class="badge rounded-pill badge-oak">Structural</span>
+                            <span class="badge rounded-pill badge-oak">Transit</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center small text-dark-min">
+                        <div class="d-flex gap-3">
+                            <span><i class="bi bi-hand-thumbs-up me-1"></i> 47</span>
+                            <span><i class="bi bi-chat-left-dots me-1"></i> 14</span>
+                        </div>
+                        <span>Registered 2 hrs 30 mins ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="info-card-custom p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start border-bottom pb-3 mb-3">
+                            <div>
+                                <h5 class="text-dark-oak fw-bold mb-1">Power Grid Fault - Residential Zone</h5>
+                                <p class="text-muted small mb-0"><i class="bi bi-geo-alt-fill me-1"></i>Tamwe Township, Sectors 7–9</p>
+                            </div>
+                            <span class="badge bg-warning text-dark text-uppercase px-2 py-1">High</span>
+                        </div>
+                        <p class="text-dark-min mb-3">
+                            A transformer station fault has caused intermittent power outages affecting approximately 2,400 residential units.
+                            Backup generation is active at the local hospital. Engineers estimate a 4–6 hour restoration window.
+                        </p>
+                        <div class="d-flex gap-2 mb-3 flex-wrap">
+                            <span class="badge rounded-pill badge-oak">Power</span>
+                            <span class="badge rounded-pill badge-oak">Residential</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center small text-dark-min">
+                        <div class="d-flex gap-3">
+                            <span><i class="bi bi-hand-thumbs-up me-1"></i> 28</span>
+                            <span><i class="bi bi-chat-left-dots me-1"></i> 5</span>
+                        </div>
+                        <span>Registered 3 hrs ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="info-card-custom p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start border-bottom pb-3 mb-3">
+                            <div>
+                                <h5 class="text-dark-oak fw-bold mb-1">Hazardous Chemical Spill</h5>
+                                <p class="text-muted small mb-0"><i class="bi bi-geo-alt-fill me-1"></i>South Industrial Estate, Gate 3 Access Road</p>
+                            </div>
+                            <span class="badge bg-danger text-uppercase px-2 py-1">Critical</span>
+                        </div>
+                        <p class="text-dark-min mb-3">
+                            An overturned cargo vehicle has released an estimated 200 litres of industrial chemical solution.
+                            Area cordoned off. Environmental Response Team mobilised. No civilian exposure reported at this time.
+                        </p>
+                        <div class="d-flex gap-2 mb-3 flex-wrap">
+                            <span class="badge rounded-pill badge-oak">Hazmat</span>
+                            <span class="badge rounded-pill badge-oak">Industrial</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center small text-dark-min">
+                        <div class="d-flex gap-3">
+                            <span><i class="bi bi-hand-thumbs-up me-1"></i> 19</span>
+                            <span><i class="bi bi-chat-left-dots me-1"></i> 3</span>
+                        </div>
+                        <span>Registered 4 hrs 15 mins ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="info-card-custom p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start border-bottom pb-3 mb-3">
+                            <div>
+                                <h5 class="text-dark-oak fw-bold mb-1">Fallen Transmission Line</h5>
+                                <p class="text-muted small mb-0"><i class="bi bi-geo-alt-fill me-1"></i>River Road, Between Junctions 11 &amp; 12</p>
+                            </div>
+                            <span class="badge bg-secondary text-uppercase px-2 py-1">Monitoring</span>
+                        </div>
+                        <p class="text-dark-min mb-3">
+                            A low-tension overhead cable has come down across the eastern footpath following strong winds.
+                            YESC crews have isolated the affected segment. Footpath closure in effect; no injuries reported.
+                            Reinstatement expected within 6 hours.
+                        </p>
+                        <div class="d-flex gap-2 mb-3 flex-wrap">
+                            <span class="badge rounded-pill badge-oak">Power</span>
+                            <span class="badge rounded-pill badge-oak">Public Safety</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center small text-dark-min">
+                        <div class="d-flex gap-3">
+                            <span><i class="bi bi-hand-thumbs-up me-1"></i> 11</span>
+                            <span><i class="bi bi-chat-left-dots me-1"></i> 2</span>
+                        </div>
+                        <span>Registered 5 hrs 45 mins ago</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-dark text-white p-0">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="https://i.pinimg.com/1200x/1b/24/7b/1b247bea4b0d52486aad41b49790244b.jpg"
+                    class="footer-img" alt="UrbanScope footer">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-between p-3 footer-dark-col footer-compact">
+                <div class="row mb-4">
+                    <div class="col-10">
+                        <div class="mb-3">
+                            <h2 class="display-6 fw-bold text-light footer-brand-top">urban</h2>
+                            <h2 class="display-6 fw-bold text-light footer-brand-bottom">scope</h2>
+                        </div>
+                        <ul class="list-unstyled d-flex flex-wrap mb-0">
+                            <li><a href="index.html" class="text-light text-decoration-none small me-3">Home</a></li>
+                            <li><a href="report.html" class="text-light text-decoration-none small me-3">Report</a></li>
+                            <li><a href="forum_general_discussion.html" class="text-light text-decoration-none small me-3">Forum</a></li>
+                            <li><a href="contact_us.html" class="text-light text-decoration-none small">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6 mb-4">
+                        <h6 class="text-uppercase border-bottom border-light pb-2 mb-3 footer-section-label">Address</h6>
+                        <p class="small text-light opacity-75">
+                            Estella, house #115<br>
+                            Thanlyin, Star City<br>
+                            Yangon, Myanmar
+                        </p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h6 class="text-uppercase border-bottom border-light pb-2 mb-3 footer-section-label-wide">Social media</h6>
+                        <div class="fs-5">
+                            <i class="bi bi-instagram me-3"></i>
+                            <i class="bi bi-facebook me-3"></i>
+                            <i class="bi bi-tiktok"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-auto pt-4 border-top border-secondary d-flex justify-content-between align-items-center">
+                    <a href="contact_us.html" class="text-uppercase small text-light text-decoration-none ls-1">Email us</a>
+                    <a href="contact_us.html" class="text-light"><i class="bi bi-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

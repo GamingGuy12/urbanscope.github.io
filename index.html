@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanScope ‧ Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/global_style.css">
+    <link rel="stylesheet" href="css/forum_style.css">
+</head>
+
+<body>
+    <header class="forum-header-bar">
+        <div class="d-flex align-items-center gap-3">
+            <label for="forum-nav-toggle" class="forum-menu-trigger">
+                <i class="bi bi-list"></i>
+            </label>
+            <span class="text-golden fw-bold font-monospace fs-6">URBANSCOPE</span>
+        </div>
+        <div class="text-golden small font-monospace">BY TRES R&D</div>
+    </header>
+
+    <input type="checkbox" id="forum-nav-toggle">
+
+    <nav class="forum-slide-panel">
+        <h5>Home</h5>
+        <a href="index.html" class="active"><i class="bi bi-house-door"></i> Dashboard</a>
+        <a href="index.html#emergency"><i class="bi bi-exclamation-circle"></i> Emergency Alerts</a>
+        <a href="index.html#city_overview"><i class="bi bi-map"></i> City Overview</a>
+        <a href="index.html#this_weeks_impact"><i class="bi bi-graph-up"></i> Weekly Impact</a>
+
+        <h5>Reports</h5>
+        <a href="report.html#urban_report"><i class="bi bi-file-earmark-plus"></i> Master Report</a>
+        <a href="report.html#recent_activity"><i class="bi bi-activity"></i> Recent Activity</a>
+        <a href="emergency_reports.html"><i class="bi bi-exclamation-triangle"></i> Emergency Records</a>
+        <a href="report.html#track_my_report"><i class="bi bi-search"></i> Track My Report</a>
+
+        <h5>Forum</h5>
+        <a href="forum_general_discussion.html"><i class="bi bi-chat-square-text"></i> General Discussion</a>
+        <a href="forum_report_specific.html"><i class="bi bi-exclamation-triangle-fill"></i> Report Disputes</a>
+        <a href="forum_updates.html"><i class="bi bi-arrow-repeat"></i> Situation Updates</a>
+        <a href="forum_public.html"><i class="bi bi-building"></i> Public Space</a>
+        <a href="forum_inf.html"><i class="bi bi-tools"></i> Maintenance Log</a>
+
+        <h5>Contact</h5>
+        <a href="contact_us.html"><i class="bi bi-envelope"></i> Contact Us</a>
+    </nav>
+
+    <div class="hero-placeholder hero-lg w-100 bg-hero-brand">
+        <div class="text-center">
+            <h1 class="text-white display-4 mb-2 text-hero-shadow"><i>urbanscope</i></h1>
+            <p class="text-white-50 font-monospace small ls-3">YANGON CITY INFRASTRUCTURE MONITOR</p>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2 px-2" id="emergency">
+        <div class="alert alert-danger">
+            <strong>EMERGENCY ALERT:</strong> Type: Flooding, Location: <a class="fst-italic no-link-style"
+                href="https://maps.app.goo.gl/1hK4dwgq14BBTo8h6">INYA LAKE KAN BAUNG</a>, <a
+                class="fst-italic no-link-style" href="emergency_reports.html">See more...</a>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0 bg-wooden">
+        <div class="row g-0 text-center">
+            <div class="col-6 col-md-3 py-3 border-end border-secondary">
+                <div class="display-6 fw-bold text-golden">342</div>
+                <div class="small text-white-50 text-uppercase font-monospace ls-1">Reports This Week</div>
+            </div>
+            <div class="col-6 col-md-3 py-3 border-end border-secondary">
+                <div class="display-6 fw-bold text-danger">6</div>
+                <div class="small text-white-50 text-uppercase font-monospace ls-1">Active Incidents</div>
+            </div>
+            <div class="col-6 col-md-3 py-3 border-end border-secondary">
+                <div class="display-6 fw-bold text-success">47</div>
+                <div class="small text-white-50 text-uppercase font-monospace ls-1">Resolved This Week</div>
+            </div>
+            <div class="col-6 col-md-3 py-3">
+                <div class="display-6 fw-bold text-golden">1,284</div>
+                <div class="small text-white-50 text-uppercase font-monospace ls-1">Registered Citizens</div>
+            </div>
+        </div>
+    </div>
+
+    <section class="info-stack">
+
+        <div class="container-fluid px-4 px-md-5 py-5 info-panel">
+            <h2 class="text-dark-oak text-center mb-4">Platform Overview</h2>
+            <div class="row g-4 align-items-center px-md-4">
+                <div class="col-md-6">
+                    <div class="bg-1 d-flex align-items-center justify-content-center rounded carousel-img-block">
+                        <i class="bi bi-gear fs-1 text-white"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-dark-oak mb-3">Connecting Citizens to Municipal Services</h4>
+                    <p class="text-dark-min">UrbanScope is Yangon's civic infrastructure monitoring platform, enabling
+                        residents to report issues, track
+                        engineering responses, and stay informed about ongoing maintenance operations across the city.
+                    </p>
+                    <p class="text-dark-min mb-0">From flooding alerts to road damage reports, every submission is
+                        routed directly to the relevant
+                        municipal authority for action and transparent follow-up.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-4 px-md-5 py-5 info-panel">
+            <h2 class="text-dark-oak text-center mb-4">About This Project</h2>
+            <div class="row g-4 align-items-center px-md-4">
+                <div class="col-md-6">
+                    <div class="bg-2 d-flex align-items-center justify-content-center rounded carousel-img-block">
+                        <i class="bi bi-clipboard-data fs-1 text-white"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-dark-oak mb-3">Built by TRES R&amp;D</h4>
+                    <p class="text-dark-min">UrbanScope was developed by TRES R&amp;D as part of a project-based
+                        initiative to bridge the gap between
+                        Yangon residents and the city's public infrastructure teams.</p>
+                    <p class="text-dark-min mb-0">Our data is sourced from citizen submissions, engineering field teams,
+                        and municipal databases,
+                        aggregated into a single transparent dashboard that anyone can access and contribute to.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-4 px-md-5 py-5 info-panel">
+            <h2 class="text-dark-oak text-center mb-4">How to File a Report</h2>
+            <div class="row g-4 align-items-center px-md-4">
+                <div class="col-md-6">
+                    <div class="bg-3 d-flex align-items-center justify-content-center rounded carousel-img-block">
+                        <i class="bi bi-exclamation-triangle fs-1 text-white"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-dark-oak mb-3">Your Report, Our Action</h4>
+                    <p class="text-dark-min">Submitting a report takes less than two minutes. Select the issue type,
+                        provide a location, optionally
+                        attach photo evidence, and submit. You'll receive a unique tracking ID.</p>
+                    <p class="text-dark-min mb-3">Use that ID at any time on the <a href="report.html#track_my_report"
+                            class="no-link-style text-decoration-underline">Track My Report</a> page to follow live
+                        engineering updates.</p>
+                    <a href="report.html#urban_report"
+                        class="btn btn-sm btn-outline-dark rounded-0 font-monospace text-uppercase">File a Report</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="bg-dark-cream map-section" id="city_overview">
+        <div class="container map-center">
+            <div class="map-luxury-card">
+                <div class="map-heading">
+                    <span class="map-subtitle">Discover Yangon</span>
+                    <h2 class="map-title">City Overview Map</h2>
+                    <div class="title-divider"></div>
+                </div>
+                <div class="map-frame-wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d264309.77761260484!2d96.00761866699838!3d16.828699322323548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon%2C%20Myanmar%20(Burma)!5e1!3m2!1sen!2ssg!4v1779086473637!5m2!1sen!2ssg"
+                        class="map-frame" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-cream" id="this_weeks_impact">
+        <div class="container p-5">
+            <h2 class="text-dark-oak text-center mb-1">This Week's Impact</h2>
+            <p class="text-center text-muted small font-monospace mb-4">Metric overviews and successful municipal
+                interventions</p>
+            <div class="row pt-3 g-4">
+                <div class="col-sm-3">
+                    <div class="card rounded-0 w-100 border-0 shadow-sm h-100">
+                        <img class="card-img-top rounded-0"
+                            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=600&q=80"
+                            alt="Drainage Operations">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="card-title h5 text-dark-oak fw-bold">Drainage Operations</h4>
+                                <p class="card-text text-dark-min small">Cleared over 4.5 tons of plastic debris from
+                                    the primary culverts along River Road, significantly mitigating sudden flash floods
+                                    during sudden downpours.</p>
+                            </div>
+                            <a href="forum_public.html"
+                                class="btn btn-sm btn-outline-dark mt-3 rounded-0 font-monospace">View Logs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card rounded-0 w-100 border-0 shadow-sm h-100">
+                        <img class="card-img-top rounded-0"
+                            src="https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&w=600&q=80"
+                            alt="Highway Potholes">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="card-title h5 text-dark-oak fw-bold">Transit Restorations</h4>
+                                <p class="card-text text-dark-min small">Dispatched immediate patching units to the
+                                    Highway Entrance Bypass. Structural integrity metrics are now undergoing continuous
+                                    field evaluations.</p>
+                            </div>
+                            <a href="forum_report_specific.html"
+                                class="btn btn-sm btn-outline-dark mt-3 rounded-0 font-monospace">Track Integrity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card rounded-0 w-100 border-0 shadow-sm h-100">
+                        <img class="card-img-top rounded-0"
+                            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80"
+                            alt="Hydrant Maintenance">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="card-title h5 text-dark-oak fw-bold">Grid Management</h4>
+                                <p class="card-text text-dark-min small">Identified pressure modulation faults across
+                                    the northwest perimeter grid. Emergency field repairs corrected three baseline main
+                                    water pipeline leaks.</p>
+                            </div>
+                            <a href="forum_inf.html"
+                                class="btn btn-sm btn-outline-dark mt-3 rounded-0 font-monospace">Maintenance Feed</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card rounded-0 w-100 border-0 shadow-sm h-100">
+                        <img class="card-img-top rounded-0"
+                            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80"
+                            alt="Citizen Engagement">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="card-title h5 text-dark-oak fw-bold">Citizen Verified Reports</h4>
+                                <p class="card-text text-dark-min small">Processed over 150 valid citizen structural
+                                    updates this week. Transparency workflows continue to forward reports to relevant
+                                    engineering sectors.</p>
+                            </div>
+                            <a href="report.html#recent_activity"
+                                class="btn btn-sm btn-outline-dark mt-3 rounded-0 font-monospace">Recent Activity</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-dark text-white p-0">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="https://i.pinimg.com/1200x/1b/24/7b/1b247bea4b0d52486aad41b49790244b.jpg" class="footer-img"
+                    alt="UrbanScope footer">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-between p-3 footer-dark-col footer-compact">
+                <div class="row mb-4">
+                    <div class="col-10">
+                        <div class="mb-3">
+                            <h2 class="display-6 fw-bold text-light footer-brand-top">urban</h2>
+                            <h2 class="display-6 fw-bold text-light footer-brand-bottom">scope</h2>
+                        </div>
+                        <ul class="list-unstyled d-flex flex-wrap mb-0">
+                            <li><a href="index.html" class="text-light text-decoration-none small me-3">Home</a></li>
+                            <li><a href="report.html" class="text-light text-decoration-none small me-3">Report</a></li>
+                            <li><a href="contact_us.html" class="text-light text-decoration-none small me-3">Contact</a>
+                            </li>
+                            <li><a href="forum_general_discussion.html"
+                                    class="text-light text-decoration-none small">Forum</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6 mb-4">
+                        <h6 class="text-uppercase border-bottom border-light pb-2 mb-3 footer-section-label">Address
+                        </h6>
+                        <p class="small text-light opacity-75">
+                            Estella, House #115<br>
+                            Thanlyin, Star City<br>
+                            Yangon, Myanmar
+                        </p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h6 class="text-uppercase border-bottom border-light pb-2 mb-3 footer-section-label-wide">Social
+                            media</h6>
+                        <div class="fs-5">
+                            <i class="bi bi-instagram me-3"></i>
+                            <i class="bi bi-facebook me-3"></i>
+                            <i class="bi bi-tiktok"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-auto pt-4 border-top border-secondary d-flex justify-content-between align-items-center">
+                    <a href="contact_us.html" class="text-uppercase small text-light text-decoration-none ls-1">Email
+                        us</a>
+                    <a href="contact_us.html" class="text-light"><i class="bi bi-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

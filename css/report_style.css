@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.bg-wooden {
+    background-color: #231f20 !important;
+}
+
+.text-golden {
+    color: #856c4e;
+    font-family: 'Times New Roman' !important;
+}
+
+.text-dark-oak {
+    color: #521f12;
+    font-family: 'Times New Roman' !important;
+}
+
+.text-dark-min {
+    color: #521f12;
+    font-family: 'Libre Franklin' !important;
+}
+
+.no-outline {
+    border: none;
+}
+
+
+[data-bs-toggle="collapse"] i {
+    display: inline-block;
+}
+
+[data-bs-toggle="collapse"]:not(.collapsed) i {
+    transform: rotate(180deg) translateY(2px);
+}
+
+
+.nav-card {
+    position: relative;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 5px;
+}
+
+.card-header-img {
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%) brightness(90%);
+    transition: filter 0.3s ease;
+}
+
+.card-header-img h3 {
+    color: white;
+    font-family: 'Times New Roman', serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.card-hover-content {
+    background-color: #e9e4de;
+    padding: 8px 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.card-hover-content ul li a {
+    text-decoration: none;
+    color: #856c4e;
+    font-family: 'Times New Roman', serif;
+    display: block;
+    padding: 2px 0;
+    font-size: 0.85rem;
+}
+
+.card-hover-content ul li a:hover {
+    color: #231f20;
+    text-decoration: underline;
+}
+
+.nav-card:hover .card-header-img {
+    filter: grayscale(0%) brightness(120%);
+}
+
+.nav-card:hover .card-hover-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.bg-1 {
+    background-image: url('pictures/1.png');
+}
+
+.bg-2 {
+    background-image: url('pictures/2.png');
+}
+
+.bg-3 {
+    background-image: url('pictures/3.png');
+}
+
+.bg-4 {
+    background-image: url('pictures/4.png');
+}
+
+
+.bg-luxury-cream {
+    background-color: #f4efe5;
+}
+
+.info-card-custom {
+    background-color: #fffdf8;
+    border: 1px solid rgba(133, 108, 78, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.form-container-custom {
+    max-width: 1100px;
+    background-color: #372822;
+    border-radius: 24px;
+}
+
+.form-section-custom {
+    margin-bottom: 20px;
+}
+
+.form-control-custom,
+.form-select-custom {
+    background-color: #d9d3cd;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 16px;
+    color: #231f20;
+}
+
+.form-control-custom::placeholder {
+    color: #6c757d;
+}
+
+.radio-group-custom {
+    background-color: #d9d3cd;
+    border-radius: 12px;
+    padding: 12px 16px;
+    color: #231f20;
+}
+
+.community-card-custom {
+    background-color: #ddd6d1;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.community-card-custom:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.community-card-emergency {
+    background-color: #e2c4c4;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.community-card-emergency:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(82, 31, 18, 0.12);
+}
+
+.master-report-shell {
+    background: linear-gradient(160deg, #3d2c25 0%, #2a1d18 100%);
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.master-report-header {
+    padding: 2.5rem 2rem 1.75rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(133, 108, 78, 0.25);
+    background: radial-gradient(circle at top, rgba(133, 108, 78, 0.18), transparent 70%);
+}
+
+.master-report-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(133, 108, 78, 0.18);
+    color: #d8b888;
+    border: 1px solid rgba(133, 108, 78, 0.4);
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.master-report-header h2 {
+    font-family: 'Times New Roman', serif;
+    color: #e6c79a;
+    font-size: 2.6rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.master-report-header p {
+    color: #d9d3cd;
+    max-width: 560px;
+    margin: 0.85rem auto 0;
+    line-height: 1.55;
+    font-size: 0.95rem;
+}
+
+.master-report-body {
+    padding: 2rem 2rem 2.25rem;
+}
+
+.master-section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    color: #d8b888;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px dashed rgba(133, 108, 78, 0.35);
+}
+
+.master-section-title i {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(133, 108, 78, 0.2);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #e6c79a;
+}
+
+.master-section-block {
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(133, 108, 78, 0.18);
+    border-radius: 18px;
+    padding: 1.4rem 1.4rem 0.6rem;
+    margin-bottom: 1.25rem;
+}
+
+.field-label {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: #f4efe5;
+    font-size: 0.82rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.field-label i {
+    color: #b89570;
+    font-size: 0.95rem;
+}
+
+.master-submit-btn {
+    background: linear-gradient(135deg, #b89570 0%, #856c4e 100%);
+    color: #fffdf8;
+    border: none;
+    border-radius: 14px;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    box-shadow: 0 8px 20px rgba(133, 108, 78, 0.3);
+}
+
+.master-submit-btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.08);
+    box-shadow: 0 12px 28px rgba(133, 108, 78, 0.4);
+    color: #fffdf8;
+}
+
+.master-submit-btn i {
+    margin-left: 0.6rem;
+}
+
+.master-meta-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+    color: #b8a892;
+    font-size: 0.78rem;
+}
+
+.master-meta-row span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
